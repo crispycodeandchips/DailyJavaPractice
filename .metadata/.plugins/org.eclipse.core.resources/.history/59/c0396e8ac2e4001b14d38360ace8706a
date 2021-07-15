@@ -1,0 +1,43 @@
+package day17;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+/*
+ *    byte  short int long float double
+ *           char
+ *    boolean 
+ * 
+ * 
+ * 
+ */
+
+public class InputTest1 {
+
+	public static void main(String[] args) {
+
+//		InputStream is=System.in;
+//		InputStreamReader isr=new InputStreamReader(is);
+		
+		InputStream is = System.in; // 인풋스트림으로 입력받아 옴
+		InputStreamReader isr = new InputStreamReader(is); // 객체에 입력받은걸 담아서
+		System.out.println("메세지를 입력하세요");
+		
+		while (true) { // runtime exception이 아닌 애들은 try catch 이용
+			
+			try {
+				char ch = (char) isr.read();
+				if (ch == '.')
+					break;
+				System.out.println(ch);
+
+			} catch (IOException e) {
+				
+				System.out.println(e);
+				
+			}
+		}
+		
+	}
+}

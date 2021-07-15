@@ -1,0 +1,11 @@
+추상클래스									인터페이스
+공통점 : 객체 생성 못함
+
+abstract class 클래스 이름					interface 인터페이스 이름
+
+extends									implements
+단일 상속									여러 개 상속 가능
+일반 메서드 + 추상 메서드 + static 메서드		public abstract 메서드
+										static 메서드 + default 메서드 (jdk8)
+생성자									생성자 x
+변수, 클래스 변수, 상수...					public static final 변수

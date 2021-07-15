@@ -1,0 +1,22 @@
+package dbconn;
+
+/*
+ * DriverManager 연결방식
+ * 
+ * DBCP(database connection pool) 연결방식
+*/
+
+public class DBConnTest {
+	public static void main(String[] args) {
+
+		String className = "orcale.jdbc.OracleDriver";
+		try {
+		Class.forName(className);
+		
+		} catch(ClassNotFoundException e)
+		{
+			System.out.println(e);
+		}
+		
+	}
+}

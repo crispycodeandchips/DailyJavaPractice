@@ -1,0 +1,11 @@
+package t1;
+
+public class SampleTest extends Sample {
+	
+	@Override
+	public void prt() {
+		
+		System.out.println("hello");
+		
+	}
+}

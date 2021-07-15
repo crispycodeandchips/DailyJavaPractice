@@ -1,0 +1,25 @@
+INDEX VERSION 1.131+C:\Users\USER\msa\msa-workspace\.metadata\.plugins\org.eclipse.jdt.core
+2574223388.index
+1755401707.index
+120049427.index
+853732186.index
+1853544561.index
+2002905392.index
+504376574.index
+3999840394.index
+2430190647.index
+3909450899.index
+841754473.index
+3039764422.index
+6740390.index
+118169023.index
+2311255414.index
+427682023.index
+4028517842.index
+3890148513.index
+4274374112.index
+4151544267.index
+1879846185.index
+2650950661.index
+1763122280.index
+2155133277.index

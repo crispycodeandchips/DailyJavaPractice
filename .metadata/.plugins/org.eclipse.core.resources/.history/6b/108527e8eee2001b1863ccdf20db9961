@@ -1,0 +1,9 @@
+package practice;
+
+import java.util.Scanner;
+
+public class GPADTO {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("성적을 입력하세요");
+
+}

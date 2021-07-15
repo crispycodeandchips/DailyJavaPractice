@@ -1,0 +1,41 @@
+package day13;
+
+class Man implements Cloneable{
+	 private String name;
+	 private int age;
+	 
+	 public Man(String name, int age) {
+		 this.name=name;
+		 this.age=age;
+	 }
+	 public String toString() {
+		 return "name:"+name+", age:"+age;
+	 }
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		return super.clone();
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+}
+
+public class RefTest1 {
+	public static void main(String[] args) throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+       Man  ins=new Man("hong", 20);
+       Man m = (Man) ins.clone();
+       Man ins2=ins;
+       ins2.setName("park");
+       ins2.setAge(30);
+       System.out.println(ins);
+       System.out.println(ins2);
+       	
+		
+		System.out.println(m);
+	}
+}

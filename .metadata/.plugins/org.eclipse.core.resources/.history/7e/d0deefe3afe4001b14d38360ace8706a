@@ -1,0 +1,25 @@
+package day07;
+
+class Field1 {
+	
+	private String name = "data1";
+	
+	public Field1(String name) 
+	{
+
+	}
+	
+	public void prt()
+	{
+		System.out.println(name);
+	}
+}
+
+public class FiledTest {
+	public static void main(String[] args) {
+		
+		Field1 ins = new Field1("hello");
+		ins.prt();
+		
+	}
+}

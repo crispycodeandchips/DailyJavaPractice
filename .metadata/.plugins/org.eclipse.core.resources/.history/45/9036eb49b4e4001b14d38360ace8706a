@@ -1,0 +1,26 @@
+package day10;
+
+public class DogTest {
+public static void main(String[] args) {
+	
+	 //Dog ins=new Dog("aaa","t1");
+    Dog[] dogArr=new Dog[5];
+    dogArr[0]=new Dog("park", "type1");
+    dogArr[1]=new Dog("kang","type1");
+    dogArr[2]=new Dog("park2", "type2");
+    dogArr[3]=new Dog("lee", "type1");
+    dogArr[4]=new Dog("park3", "type3");
+    
+  for(int i=0; i<dogArr.length; i++)
+	   System.out.println(dogArr[i].getName()+", "+dogArr[i].getType());
+  
+  
+  System.out.println("=====");
+  
+  for(Dog index:dogArr)
+	   System.out.println(index.getName()+", "+index.getType());
+  
+    
+	}
+
+}

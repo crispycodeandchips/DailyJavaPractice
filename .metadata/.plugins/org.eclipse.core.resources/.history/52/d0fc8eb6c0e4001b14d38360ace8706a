@@ -1,0 +1,9 @@
+package org.keylime.arr1;
+
+import java.util.ArrayList;
+
+public class ManPro {
+	
+	private ArrayList<Man> man = new ArrayList<Man>();
+
+}

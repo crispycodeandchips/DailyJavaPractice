@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;day07.Field1&apos; to &apos;FieldTest1&apos;&#x0D;&#x0A;- Original project: &apos;day07&apos;&#x0D;&#x0A;- Original element: &apos;day07.Field1&apos;&#x0D;&#x0A;- Renamed element: &apos;day07.FieldTest1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Field1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;day07{Field1.java[Field1" matchStrategy="1" name="FieldTest1" qualified="false" references="true" similarDeclarations="false" stamp="1623129830313" textual="false" version="1.0"/>
+</session>

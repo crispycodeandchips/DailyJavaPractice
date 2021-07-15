@@ -1,0 +1,19 @@
+package day03;
+
+import java.util.Scanner;
+
+/*
+ * su1, su2를 입력받아 작은 수부터 큰 수로 둘 사이의 짝수값과 그 합을 출력하시오.
+*/
+public class HwTest4 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("input su1");
+		int su = Integer.parseInt(sc.nextLine());
+		
+		System.out.println("input su2");
+		int su = Integer.parseInt(sc.nextLine());
+	}
+
+}

@@ -1,0 +1,18 @@
+package day03;
+
+public class WhileTest2 {
+	public static void main(String[] args) {
+
+		// 1  3  5  7  9
+
+		int i = 0;
+		while(i<9) // 조건이 <=면 10까지 나오게 되니까 9
+		{
+			i++;
+			if (i%2==1)
+
+				System.out.print(i+"  "); // 증가했을 때 i 값이 1이 되어야 하니까 초기값은 0
+		}
+	}
+
+}

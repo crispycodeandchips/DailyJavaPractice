@@ -1,0 +1,24 @@
+package day03;
+
+import java.util.Scanner;
+
+public class WhileTest4 {
+	public static void main(String[] args) {
+
+		//숫자를 입력받아서 1부터 그 값까지 출력한 후 합계를 구하시오 (for, while)
+		Scanner sc = new Scanner(System.in);
+		System.out.println("숫자를 입력하세요");
+		int num = Integer.parseInt(sc.nextLine());
+
+		int i=1;
+		int sum = 0;
+		while(i<num) {
+			
+			sum += i;
+			System.out.println(i);
+			i++;
+		}
+		System.out.println("\n 총합: "+sum);
+	}
+
+}

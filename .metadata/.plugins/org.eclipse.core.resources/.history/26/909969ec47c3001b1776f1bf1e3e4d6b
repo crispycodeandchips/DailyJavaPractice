@@ -1,0 +1,26 @@
+package day03;
+
+public class WhileTest3 {
+	
+	public static void main(String[] args) {
+		
+		// 5부터 10까지
+		int i = 5;
+		while(i<=10) {
+			
+			System.out.print(i+" ");
+			i++;
+		}
+			System.out.println();
+		
+		
+		
+		i=10;
+		while(i>=5) {
+			System.out.print(i+" ");
+			i--;
+		}
+		System.out.println();
+	}
+
+}
